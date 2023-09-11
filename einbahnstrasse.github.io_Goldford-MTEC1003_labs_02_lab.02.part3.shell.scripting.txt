@@ -141,7 +141,7 @@ echo "I'm done backing up!"
 10. Create a directory in your home folder called test
 ----------
 
-
+mkdir test
 
 ==========
 11. Go into that directory and create two empty files... 1.txt and 2.txt
@@ -149,8 +149,8 @@ echo "I'm done backing up!"
 What commands did you use to do this?
 ----------
 
-
-
+touch 1.txt
+touch 2.txt
 
 
 
@@ -161,7 +161,7 @@ What commands did you use to do this?
 What commands did you use to do this?
 ----------
 
-
+mv ~/mtec1003-lab-02/copy_to_backup.sh ~/test
 
 
 
@@ -172,7 +172,7 @@ What commands did you use to do this?
 What commands did you use to do this?
 ----------
 
-
+./copy_to_backup.sh
 
 
 ==========
@@ -181,9 +181,9 @@ What commands did you use to do this?
 What commands did you use to do this?  Show the output.
 ----------
 
+ls
 
-
-
+1.txt 2.txt backup/ copy_to_backup.sh
 
 
 ==========
